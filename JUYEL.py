@@ -172,7 +172,7 @@ class main_crack():
             print(f'\x1b[38;5;196m[\x1b[38;5;46m√\x1b[38;5;196m]\x1b[38;5;46m PASSWORD \x1b[1;97m:\x1b[38;5;46m {sl} ')
             print(f'\x1b[38;5;196m[\x1b[38;5;46m√\x1b[38;5;196m]\x1b[38;5;46m IF NO RESULT \x1b[38;5;46mON\x1b[1;97m|\x1b[1;93mOFF\x1b[38;5;46m AIRPLANE MODE ')
             linex()
-            with Habib(max_workers=30) as JUYELworld:
+            with tred(max_workers=30) as JUYELworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
