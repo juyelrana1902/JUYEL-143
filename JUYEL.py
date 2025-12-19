@@ -54,7 +54,7 @@ def _____UpDaTe_xOx_____():
 	return random.choice([ua1,ua2,ua3,ua4,ua5,ua6])
 #--------------( APV )--------------#
 K2=str(os.getgid())
-num_key="JUYEL1".join(K2).upper()
+num_key="X1".join(K2).upper()
 def __ApV__():
 	url="https://github.com/juyelrana1902/approval/blob/main/approval.txt"
 	try:
