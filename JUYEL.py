@@ -31,16 +31,16 @@ def clear():os.system('clear');print(logo)
 def linex():print(f'\x1b[1;97m─────────────────────────────────────')
 #--------------(- UPDATE -)---------------#
 def _____UpDaTe_xOx_____():
-	fb_version=f"{random.randint(485, 521)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(42, 70)}.{random.randint(77, 97)}"
+	fb_version=f"{random.randint(457, 519)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(44, 54)}.{random.randint(84, 92)}"
 	fb_version_code=str(random.randint(10000000, 66666666))
 	application_version_code=str(random.randint(000000000,999999999))
-	dwh = random.choice(["720|1.3|1280","1080|2.05|2460","720|2.0|1600","720|1.3|1560","720|2.0|1440","1080|2.0|2460","720|2.0|1500","720|2.0|1440","720|1.6|1613","1080|2.3|2408"])
+	dwh = random.choice(["720|2.0|1640","1080|2.2|2400","720|2.0|1600","720|1.3|1560","720|2.0|1440","1080|2.0|2460","720|2.0|1500","720|2.0|1440","720|1.6|1613","1080|2.3|2408"])
 	density = dwh.split('|')[1];width = dwh.split('|')[0];height = dwh.split('|')[2]
 	sim_oparetor=random.choice(['Orange EG', 'Vodafone', 'AT&amp-T', 'Zong', 'MTS RUS', 'Airtel', 'Marshmallow', 'O2.CZ', 'JAZZTEL', 'YES OPTUS', 'Telstra', 'Telkomsel', 'elephone', 'MTN-CG', 'Tele2 LT', 'Verizon', 'Unitel STP', 'MegaFon', 'MTN', 'Movistar', 'Turk Telekom', 'T-Mobile', 'VINAPHONE', 'LoneStar', 'UNEFON 4G', 'MASMOVIL', 'Bouygues Telecom', 'Metfone', 'AT&amp;amp-T', 'Astelit-LIFE', 'XL Axiata', 'PLAY (T-Mobile)', 'Digi.Mobil', 'Verizon Wireless', 'SAZKAmobilCZ', 'PosteMobile', 'TELCEL', 'lifecell', 'Yoigo', 'vodafone.de', 'PosteMobile', 'Tele2 LT', 'Claro BR', 'O2 - UK', 'Willkommen', 'VIETTEL', 'U.S. Cellular', 'Metro by T-Mobile', 'TelkomSA', 'ADT-Mobile', 'VIVACOM', 'lifecell', 'S COMVIQ', 'TRUE-H', 'GLOBE', 'VIETTEL', 'U.S. Cellular'])
 	country_code=random.choice(["en_US", "en_GB","es_ES"])
 	android_oparetor=f"{random.randint(4, 13)}.{random.randint(0, 5)}.{random.randint(1, 5)}"
 	build=random.choice(['SKQ1.210216.001','RKQ1.211103.002','SP1A.210812.016','TP1A.220905.001'])
-	mobile_model=random.choice(["TECNO KA6","TECNO CI8n","Tecno Mobile X689F","Tecno Mobile X620B","Tecno Mobile X657","Tecno Mobile X6816C","Tecno Mobile-X552","Tecno Mobile X693","Tecno Mobile X509","Tecno Mobile X603"])
+	mobile_model=random.choice(["TECNO CE7j ","TECNO CK7n","Tecno Mobile X689F","Tecno Mobile X620B","Tecno Mobile X657","Tecno Mobile X6816C","Tecno Mobile-X552","Tecno Mobile X693","Tecno Mobile X509","Tecno Mobile X603"])
 	end1=f"[FBAN/FB4A;FBAV/{str(fb_version)};FBBV/{str(fb_version_code)};FBDM/{{density={density},width={width},height={height}}};FBLC/{str(country_code)};FBCR/{str(sim_oparetor)};FBMF/Tecno Mobile;FBBD/Tecno Mobile;FBPN/com.facebook.katana;FBDV/{str(mobile_model)};FBSV/{str(android_oparetor)};FBOP/1;FBCA/armeabi-v7a:armeabi;]"
 	ua1=f'Davik/2.1.0 (Linux; U; Android {str(android_oparetor)}; '+str(mobile_model)+' Build/'+str(build)+') '+end1
 	end2=f"[FBAN/FB4A;FBAV/{str(fb_version)};FBBV/{str(fb_version_code)};FBDM/{{density={density},width={width},height={height}}};FBLC/{str(country_code)};FBRV/{str(application_version_code)};FBCR/{str(sim_oparetor)};FBMF/Tecno Mobile;FBBD/Tecno Mobile;FBPN/com.facebook.katana;FBDV/{str(mobile_model)};FBSV/{str(android_oparetor)};FBOP/1;FBCA/arm64-v8a:;]"
