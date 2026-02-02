@@ -1,1 +1,3 @@
 [FBAN/FB4A;FBAV/315.0.0.47.113;FBBV/285966859;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBCR/ Cell C;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G930F;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]
+[FBAN/FB4A;FBAV/311.0.0.44.117;FBBV/280307956;FBDM/{density=4.0,width=1440,height=2807};FBLC/de_DE;FBCR/o2 - de ;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-N986B;FBSV/11;FBOP/1;FBCA/arm64-v8a:;]
+[FBAN/FB4A;FBAV/321.0.0.37.119;FBBV/295907003;FBDM/{density=1.75,width=720,height=1423};FBLC/en_US;FBCR/Boost Mobile;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A205U;FBSV/10;FBOP/19;FBCA/arm64-v8a:;]
